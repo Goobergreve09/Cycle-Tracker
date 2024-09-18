@@ -5,6 +5,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import LolaLogo from "../assets/images/period-logo4.png";
 import ResetModal from "../Components/ResetModal";
 import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
+import "../calendar.css"
 
 export default function Home() {
   const [date, setDate] = useState(new Date()); // State to manage the selected date
@@ -110,7 +111,7 @@ export default function Home() {
           <Calendar
             onChange={setDate}
             value={date}
-            className="full-page-calendar text-center bg-dark" // Apply custom CSS class
+            className="full-page-calendar text-center" // Apply custom CSS class
             tileClassName={({ date }) => getTileColor(date)} // Apply dynamic class names for phases
           />
         </Col>
