@@ -1,0 +1,89 @@
+/* Navbar */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center align items horizontally */
+  height: calc(100vh - 104px);
+  padding: 20px; /* Optional: Add padding to the container */
+  background: linear-gradient(to bottom, transparent, #d7bde2);
+}
+
+.logo-row {
+  margin-bottom: 20px; /* Space between the logo and the calendar */
+}
+
+.questionnaire-logo {
+  width: 75px;
+}
+
+.navLogo {
+  color: #d7bde2;
+  transition: 0.3s ease;
+  font-size: 48px;
+}
+
+.navLogo:hover {
+  color: #f4ecf7;
+}
+
+
+.resetCyclebutton {
+  border: none !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+.resetCyclebutton:hover {
+  background-color: grey !important;
+}
+
+.custom-modal .modal-content {
+  background-color: #d7bde2;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif !important;
+}
+
+.custom-modal .modal-header {
+  background-color: #d7bde2;
+  color: #fff;
+}
+
+.custom-modal .modal-footer {
+  background-color: #d7bde2;
+}
+
+.italic {
+  font-style: italic;
+  font-size: small;
+}
+
+.emphasizedWord {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.questionnaireContainer {
+  font-family: "Inter", sans-serif !important;
+  height: calc(100vh - 104px);
+  background-color: #d7bde2;
+}
+
+
+@media (max-width: 768px) {
+  .full-page-calendar {
+    max-width: 85% !important;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 410px) {
+  .full-page-calendar {
+    font-size: 16px;
+  }
+}

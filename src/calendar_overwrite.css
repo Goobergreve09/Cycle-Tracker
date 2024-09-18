@@ -1,0 +1,108 @@
+.menstrual-phase {
+    background-color: #ff9999 !important;
+  }
+  
+  .follicular-phase {
+    background-color: #99ccff !important;
+  }
+  
+  .ovulatory-phase {
+    background-color: #ffff99 !important;
+  }
+  
+  .luteal-phase {
+    background-color: #ffcc99 !important;
+  }
+
+.full-page-calendar {
+  width: 90% !important;
+  max-width: 500px;
+  height: auto !important; /* Adjust the calendar's height automatically */
+  font-size: 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Optional: Add some shadow */
+  border-radius: 10px; /* Optional: Rounded corners */
+  font-family: "Inter", sans-serif !important;
+  color: #d7bde2 !important;
+}
+
+.selected-date {
+  background-color: grey !important; /* Change this color to your desired color */
+  color: #d7bde2 !important;
+}
+
+.calendar-logo {
+  width: 125px;
+}
+
+.react-calendar__navigation__arrow {
+  background-color: transparent !important;
+  transition: 0.3s ease;
+  color: #d7bde2 !important;
+}
+
+.react-calendar__navigation__arrow:hover {
+  background-color: transparent !important;
+  color: #f4ecf7 !important;
+}
+
+.react-calendar__tile.react-calendar__year-view__months__month {
+  max-width: 300px;
+  color: #d7bde2 !important;
+  transition: 0.1s ease;
+  border-radius: 10px;
+}
+
+.react-calendar__tile.react-calendar__year-view__months__month:hover {
+  color: #052931 !important;
+}
+
+.react-calendar__tile.react-calendar__tile--now.react-calendar__tile--hasActive.react-calendar__year-view__months__month {
+  background-color: grey !important;
+}
+
+.react-calendar__tile.react-calendar__tile--now.react-calendar__tile--hasActive.react-calendar__year-view__months__month:hover {
+  color: #052931 !important;
+  background-color: white !important;
+}
+
+.react-calendar__navigation__label {
+  cursor: default;
+  color: #d7bde2;
+  transition: 0.3s ease;
+}
+
+.react-calendar__navigation__label:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+  color: #f4ecf7 !important;
+}
+
+.react-calendar__tile--now {
+  background: grey !important; /* Remove background */
+  color: inherit !important; /* Reset text color */
+  color: #d7bde2 !important;
+}
+
+/* Optional: Customize hover effect if needed */
+.react-calendar__tile--now:hover {
+  background: none !important; /* Remove hover background */
+  color: inherit !important; /* Reset hover text color */
+  color: #d7bde2 !important;
+}
+
+/* Optional: Remove hover effect for weekend days */
+.react-calendar__tile.react-calendar__month-view__days__day--weekend:hover {
+  background: #abecfa !important; /* Remove hover background color */
+  color: #052931 !important; /* Reset hover text color */
+  color: #d7bde2 !important;
+}
+
+.react-calendar__tile.react-calendar__month-view__days__day {
+  border: 1px solid grey;
+  color: #d7bde2;
+}
+
+.react-calendar__tile.react-calendar__month-view__days__day:hover {
+  color: #052931 !important;
+  background: white !important;
+}
